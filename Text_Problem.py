@@ -1,0 +1,1 @@
+print("Knowledge " + "is " +"power")
