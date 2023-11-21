@@ -1,0 +1,9 @@
+#Python Problem
+#If age is younger than 18, they cant come in
+
+age = int(input())
+
+if (age<18):
+   print ("Sorry")
+else :
+   print("Allowed")
