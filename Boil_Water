@@ -1,3 +1,6 @@
+# Python Boil Water exercise
+#If Temp above 100, boiling water
+
 temp = int(input())
 
 if temp >= 100:
