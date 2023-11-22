@@ -1,0 +1,15 @@
+total = 0
+#tu código va aquí
+#Python Exercise
+#Ticket System, each ticket costs 100$, for children under 3 years old, free
+#Calculate Price of 5 passengers
+
+p = 5
+while p >= 1:
+   p -= 1
+   age = int(input())
+   if age>3:
+      total += 100
+   else:
+      continue   
+print (total)
