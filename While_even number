@@ -1,0 +1,7 @@
+#Python Exercise
+#While Even_Number
+
+x = 0
+while x<=10:
+  print(x)
+  x+=2
