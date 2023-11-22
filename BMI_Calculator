@@ -1,0 +1,19 @@
+#tu código va aquí
+#Python Exersice
+#BMI Calculator
+#p=weight
+#a=height
+
+p = float(input())
+a = float(input())
+
+imc = p / (a*a)
+
+if (imc<18.5):
+   print ('Underweight')
+elif (imc>=18.5) and (imc<=24.99):
+   print ('Normal')
+elif (imc>=25) and (imc<=29.99):
+   print ('Overweight')
+elif (imc>=30):
+   print ('Obesity')
