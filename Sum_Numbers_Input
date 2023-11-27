@@ -1,0 +1,13 @@
+#Python Code
+#Sum of all numbers when given an Input
+N = int(input())
+
+N +=1
+x = list(range(N))
+
+y=0
+
+for i in x:
+   y +=i
+
+print (y)
