@@ -1,0 +1,10 @@
+#Python Code
+#Reverse String from Input
+
+text = input()
+
+x= text[::-1]
+
+print(x)
+
+#your code goes here
