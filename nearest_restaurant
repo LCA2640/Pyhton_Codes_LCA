@@ -1,0 +1,15 @@
+#Python Code
+#Every Fifth Floor there is a restaurant, mark the floor where there is a restaurant
+
+floors = int(input())
+f=list(range(0,floors))
+
+for i in f:
+    if i ==0:
+        continue
+    
+    if i%5==0:
+        print(i)
+
+#your code goes here
+#your code goes here
