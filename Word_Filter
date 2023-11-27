@@ -1,0 +1,14 @@
+#Python Code
+#Word filter using for loop
+
+words = ["cat", "car", "code", "home", "learn", 
+    "fun", "job", "love", "friend", "zoo", "enjoy",
+    "happiness", "family", "goal", "desire"]
+
+#your code goes here
+
+x = input()
+
+for i in words:
+    if x in i:
+        print(i)
