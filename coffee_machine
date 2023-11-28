@@ -1,0 +1,28 @@
+#A coffee vending machine makes 3 types of coffee ☕:
+#1 - Americano
+#2 - Espresso
+#3 - Cappuccino
+#Task:Define the coffee() function to take the number from the customer as input and serve the corresponding coffee type. It should output Unknown if there is no match.
+#Input Example:2
+#Output Example:Espresso
+
+def coffee():
+    x=int(input())
+
+    if x == 1:
+        print("Americano")
+    elif x==2:
+        print("Espresso")
+    elif x==3:
+        print("Cappuccino")
+    else:
+        print("Unknown")
+
+# 1 => Americano
+# 2 => Espresso
+# 3 => Cappuccino
+
+#define the coffee() function
+
+
+coffee()
