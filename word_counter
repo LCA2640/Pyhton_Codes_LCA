@@ -1,0 +1,14 @@
+#Python Code
+#You are making a word counter program. Given text as input, output the number of words it contains in the format given below.
+#Input Example: Never give up
+#Output Example: Number of words: 3
+
+text = input()
+
+x= text.split()
+y= len(x)
+
+print ("Number of words:",y)
+
+
+#your code goes here
