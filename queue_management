@@ -1,0 +1,10 @@
+#Python Code
+#Add the User input on List with function "append"
+
+queue = ['John', 'Amy', 'Bob', 'Adam']
+
+x = input()
+
+queue.append(x)
+
+print(queue)
