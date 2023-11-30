@@ -1,0 +1,14 @@
+#Python Code
+#Calculate area of Rectangle using User Input, functions and arguments 
+
+def area(x, y):
+   #tu código va aquí
+   A = x*y
+   return A
+
+w = int(input())
+h = int(input())
+
+a = area (w,h)
+print (a)
+
