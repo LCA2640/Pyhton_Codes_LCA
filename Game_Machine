@@ -1,0 +1,17 @@
+#Python Code
+#Output has to launch game from the list, according to User input, use functions and arguents for this code
+
+games = ["Alien Shooter", "Tic Tac Toe", "Snake", "Puzzle", "Football"]
+
+choice = int(input())
+
+#define the run function
+
+def run(games, choice):
+        
+    if (choice > (len(games)-1)) or (choice <0) :
+        print("Unknown")
+    else:
+        print (games[choice])
+
+run(games,choice)
