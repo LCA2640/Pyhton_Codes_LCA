@@ -1,0 +1,18 @@
+#Python Code
+#Complete the given hashtag() function to return the input text starting with the hashtag (#).Also, if the user entered several words, the program should delete the spaces between them.
+
+usertext = input()
+
+def hashtag(usertext):
+        
+    if " " in usertext:
+              
+        text= usertext.replace(" ","")
+        ht = '#' + text
+
+    else:
+        ht = '#' + usertext
+
+    return ht
+
+print(hashtag(usertext))
