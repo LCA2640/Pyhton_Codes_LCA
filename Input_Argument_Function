@@ -1,0 +1,10 @@
+#Python Code
+#Use User Input as argument for Function 
+
+def printBill(text):
+  print("======")
+  print(text)
+  print("======")
+
+X = input()
+printBill (X)
